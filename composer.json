@@ -1,5 +1,5 @@
 {
-    "name": "messagecloud/send-php",
+    "name": "messagecloud/send-api-php",
     "description": "The MessageCloud Send API client for PHP",
     "type": "library",
     "require-dev": {
