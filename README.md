@@ -1,6 +1,7 @@
 # MessageCloud Send PHP SDK
 The MessageCloud Send PHP SDK provides a convenient way to interact with the MessageCloud Send API for sending SMS messages.
 
+
 ## Installation
 To use the MessageCloud Send PHP SDK in your project, follow these steps:
 
@@ -34,6 +35,7 @@ If you already have composer in your project then it's as simple as this:
 composer require messagecloud/send-api-php
 ```
 
+
 ## Authentication
 To use the SDK, you need to create an instance of the Authentication class with your username and password:
 
@@ -42,6 +44,7 @@ use MessageCloud\Send\Authentication;
 
 $authentication = new Authentication('your-username', 'your-password');
 ```
+
 
 ## Sending SMS
 To send an SMS message using the SDK, create an instance of the Sms class and pass the required parameters:
@@ -67,6 +70,7 @@ if ($response->wasSuccessful()) {
 }
 ```
 
+
 ## Running Tests
 To run unit tests for the SDK, you can use PHPUnit. Make sure you have PHPUnit installed:
 
@@ -79,6 +83,7 @@ Then, you can run the tests:
 ```bash
 vendor/bin/phpunit
 ```
+
 
 ## Code Quality Checks
 This project uses PHPStan and PHP CS Fixer for code quality checks. You can run them using the following commands:
@@ -95,8 +100,10 @@ To fix coding standards violations with PHP CS Fixer:
 vendor/bin/php-cs-fixer fix --dry-run --stop-on-violation
 ```
 
+
 ## Contributing
 If you find a bug or would like to contribute to this SDK, feel free to open an issue or submit a pull request.
+
 
 ## License
 This SDK is open-source software licensed under the BSD-2-Clause License. See the LICENSE file for more information.
